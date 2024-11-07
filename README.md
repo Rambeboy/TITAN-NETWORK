@@ -1,6 +1,8 @@
-# Titan Edge Installation Script
+# TITAN EDGE
 
 A simple installation script for setting up Titan Edge node with Docker.
+
+---
 
 ## Overview
 
@@ -11,6 +13,8 @@ This script automates the installation process of Titan Edge node by:
 - Setting up the Titan Edge environment
 - Binding the device with your hash
 
+---
+
 ## Registration
 
 Before installation, you need to register to get your hash:
@@ -18,10 +22,12 @@ Before installation, you need to register to get your hash:
 1. Visit [Titan Edge Registration](https://test1.titannet.io/intiveRegister?code=zhNcuF)
 2. Complete the registration process
 3. After registration, obtain your hash:
-   - Go to Console
-   - Navigate to Node Management
-   - Click on "Get Identity Code"
+- Go to Console
+- Navigate to Node Management
+- Click on "Get Identity Code"
 4. Save your hash for the installation process
+
+---
 
 ## Requirements
 
@@ -29,6 +35,8 @@ Before installation, you need to register to get your hash:
 - Sudo privileges
 - Internet connection
 - Your Titan Edge hash (obtained from Node Management console)
+
+---
 
 ## Supported Operating Systems
 
@@ -38,26 +46,30 @@ Before installation, you need to register to get your hash:
 - Red Hat
 - Fedora
 
+---
+
 ## Quick Start
 
 1. Register and get your hash:
 
-   - Register at [Titan Edge Registration](https://test1.titannet.io/intiveRegister?code=zhNcuF)
-   - Go to Console > Node Management > Get Identity Code
+- Register at [Titan Edge Registration](https://test1.titannet.io/intiveRegister?code=zhNcuF)
+- Go to Console > Node Management > Get Identity Code
 
 2. Run this single command to download and execute the installation script:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Galkurta/Titan-Network/main/install.sh -o install.sh && chmod +x install.sh && sudo ./install.sh
+curl -fsSL https://raw.githubusercontent.com/Rambeboy/TITAN-NETWORK/refs/heads/main/install.sh -o install.sh && chmod +x install.sh && sudo ./install.sh
 ```
 
 Or using wget:
 
 ```bash
-wget https://raw.githubusercontent.com/Galkurta/Titan-Network/main/install.sh && chmod +x install.sh && sudo ./install.sh
+wget https://raw.githubusercontent.com/Rambeboy/TITAN-NETWORK/refs/heads/main/install.sh && chmod +x install.sh && sudo ./install.sh
 ```
 
 The script will prompt you to enter your hash during installation.
+
+---
 
 ## Features
 
@@ -67,6 +79,8 @@ The script will prompt you to enter your hash during installation.
 - Error handling and validation
 - Automatic system detection
 - Interactive hash input
+
+---
 
 ## Troubleshooting
 
@@ -89,6 +103,8 @@ If you encounter any issues:
    - Check your internet connection
    - Ensure API endpoint is accessible
 
+---
+
 ## Notes
 
 - After Docker installation, you may need to log out and log back in for group changes to take effect
@@ -97,10 +113,16 @@ If you encounter any issues:
 - If you haven't registered, make sure to do so before running the installation script
 - Your hash can be found in the Node Management section of the console
 
+---
+
 ## License
 
 This project is open source and available under the MIT License.
 
+---
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+
+---
