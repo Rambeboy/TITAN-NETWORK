@@ -88,20 +88,21 @@ If you encounter any issues:
 
 1. **Docker Installation Fails**
 
-   - Ensure your system is up to date
-   - Check your internet connection
-   - Verify sudo privileges
+- Ensure your system is up to date
+- Check your internet connection
+- Verify sudo privileges
 
 2. **Container Fails to Start**
 
-   - Ensure Docker service is running
-   - Check if required ports are available
-   - Verify system resources
+- Ensure Docker service is running
+- Check if required ports are available
+- Verify system resources
 
 3. **Binding Fails**
-   - Verify your hash is correct (from Console > Node Management > Get Identity Code)
-   - Check your internet connection
-   - Ensure API endpoint is accessible
+
+- Verify your hash is correct (from Console > Node Management > Get Identity Code)
+- Check your internet connection
+- Ensure API endpoint is accessible
 
 ---
 
