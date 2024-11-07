@@ -1,5 +1,7 @@
 # TITAN EDGE
 
+![titannetwork](assets/titannetwork.png)
+
 A simple installation script for setting up Titan Edge node with Docker.
 
 ---
