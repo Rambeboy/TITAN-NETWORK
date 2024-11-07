@@ -19,7 +19,7 @@ print_banner() {
     echo "                                           |___/"      
     echo
     echo "                Titan Edge Installer v1.0"
-    echo "                Author: Galkurta"
+    echo "                Author: Nofan Rambe"
     echo -e "${NC}\n"
 }
 
