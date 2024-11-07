@@ -58,13 +58,13 @@ Before installation, you need to register to get your hash:
 2. Run this single command to download and execute the installation script:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Rambeboy/TITAN-NETWORK/refs/heads/main/install.sh -o install.sh && chmod +x install.sh && sudo ./install.sh
+curl -fsSL https://raw.githubusercontent.com/Rambeboy/TITAN-NETWORK/main/install.sh -o install.sh && chmod +x install.sh && sudo ./install.sh
 ```
 
 Or using wget:
 
 ```bash
-wget https://raw.githubusercontent.com/Rambeboy/TITAN-NETWORK/refs/heads/main/install.sh && chmod +x install.sh && sudo ./install.sh
+wget https://raw.githubusercontent.com/Rambeboy/TITAN-NETWORK/main/install.sh && chmod +x install.sh && sudo ./install.sh
 ```
 
 The script will prompt you to enter your hash during installation.
