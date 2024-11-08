@@ -62,7 +62,6 @@ Before installation, you need to register to get your hash:
 ```bash
 curl -fsSL https://raw.githubusercontent.com/Rambeboy/TITAN-NETWORK/main/install.sh -o install.sh && chmod +x install.sh && sudo ./install.sh
 ```
-
 Or using wget:
 
 ```bash
